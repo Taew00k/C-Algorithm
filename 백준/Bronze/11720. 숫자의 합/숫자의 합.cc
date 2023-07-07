@@ -9,7 +9,7 @@ int main()
     cin >> n >> s;
     for(int i=0; i<n; i++)
     {
-        sum += ((int)s[i]-48);
+        sum += (s[i]-48);
     }
     cout << sum;
     return 0;
