@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
     int n;
-    double sum =0.0;
+    double sum =0;
     cin >> n;
     double arr[n];
     for(int i=0; i<n; i++)
@@ -14,7 +14,7 @@ int main()
     double top =arr[0];
     for(int i=1; i<n; i++)
     {
-        if(arr[i]>top)
+        if(arr[i]>=top)
         top=arr[i];
         else true;
     }
